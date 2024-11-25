@@ -9,12 +9,11 @@ At this point you should be able to guess a number between 1 and 9, if you guess
 The problem I've mentioned in a mail before, is that via the frontend you'll actually get feedback about how your balance is expected to change -> removing the gambling aspect ... 
 
 If not using the frontend, this setup should work for the hardhat console: 
-npx hardhat console --network sepolia
-
-const abi = require('./artifacts/contracts/GuessTheNumber.sol/GuessTheNumber.json').abi;
-const contractAddress = "0xCddd593a1Cfe31Ef3Ddf23d036A712130652193F";
-signer = await ethers.provider.getSigner();
-const contractWithSigner = new ethers.Contract(contractAddress, abi, signer);
+\nnpx hardhat console --network sepolia
+const abi = require('./artifacts/contracts/GuessTheNumber.sol/GuessTheNumber.json').abi; \n
+const contractAddress = "0xCddd593a1Cfe31Ef3Ddf23d036A712130652193F";\n
+signer = await ethers.provider.getSigner();\n
+const contractWithSigner = new ethers.Contract(contractAddress, abi, signer);\n
 
 //Make a guess
 guessTx = await contractWithSigner.guess(5, { value: ethers.parseEther("0.01") });
