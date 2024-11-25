@@ -6,7 +6,7 @@ Next connect your Wallet via the "Connect Wallet" Button.
 
 At this point you should be able to guess a number between 1 and 9, if you guess the correct number you'll win the reward pool, otherwhise the payment for your guess (0.01) will be added to the rewardpool. Feedback if you've won or not will be provided, this however takes some times since you have to wait for the transaction to conclude.
 
-The problem I've mentioned in a mail before, is that via the frontend you'll actually get feedback about how your balance is expected to change -> removing the gambling aspect ... however I'm unsure how to resolve this.
+The problem I've mentioned in a mail before, is that via the frontend you'll actually get feedback about how your balance is expected to change -> removing the gambling aspect ... 
 
 If not using the frontend, this setup should work for the hardhat console: 
 npx hardhat console --network sepolia
