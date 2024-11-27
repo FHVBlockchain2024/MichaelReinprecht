@@ -8,7 +8,8 @@ At this point you should be able to guess a number between 1 and 9, if you guess
 
 The problem I've mentioned in a mail before, is that via the frontend you'll actually get feedback about how your balance is expected to change -> removing the gambling aspect ... 
 
-If not using the frontend, this setup should work for the hardhat console: 
+
+If not using the frontend, this setup should work for the hardhat console (this however does not provide proper feedback): 
 
 npx hardhat console --network sepolia
 
