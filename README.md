@@ -1,4 +1,4 @@
-Technically, the Frontend should handle everything, so everything you have to do is navigate to "MichaelReinprecht/frontend/gamble-frontend" and run the command "npm run start" to start the react frontend.
+Technically, the Frontend should handle everything (if you have MetaMask installed), so everything you have to do is navigate to "MichaelReinprecht/frontend/gamble-frontend" and run the command "npm run start" to start the react frontend.
 
 For some reason for me sometimes an error message is displayed when first starting up the page, in this case please just reload the page using F5 and it should work.
 
