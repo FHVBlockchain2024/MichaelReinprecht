@@ -1,6 +1,6 @@
-Technically, the Frontend should handle everything (if you have MetaMask installed), so everything you have to do is navigate to "MichaelReinprecht/frontend/gamble-frontend" and run the command "npm run start" to start the react frontend.
+Technically, the Frontend should handle everything (if you have MetaMask installed), so everything you have to do is navigate to "MichaelReinprecht/frontend/gamble-frontend" and run the commands "npm install" to install the mode nodules, followed by "npm run start" to start the react frontend.
 
-For some reason for me sometimes an error message is displayed when first starting up the page, in this case please just reload the page using F5 and it should work.
+For some reason an error message is displayed when first starting up the page, in this case please first unlock MetaMask (the prompt for this should still show up) and afterwards reload the page using F5 and it should work.
 
 Next connect your Wallet via the "Connect Wallet" Button.
 
